@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0px;
     font-family: sans-serif;
@@ -7,7 +10,6 @@ body {
 body::-webkit-scrollbar { 
     display: none; 
 }
-
 
 
 /* Body Header */
@@ -574,9 +576,15 @@ button:focus {
     width: 50%;
 }
 
-
+@media only screen and (min-width: 1080px){
+#my-image{
+    margin: 0% 43%;
+    transform: translate(0, -110%);
+}
+}
 @media only screen and (max-width: 1080px) {
     
+
     .no-list-style li{
         font-size: 2.5rem;  
     }
@@ -589,8 +597,12 @@ button:focus {
     .bars {
         display: block;
     }
-    
-    
+    #body-header{
+        height: 30vh;
+    }
+    #name-social-container{
+        margin-top: 9vh;
+    }
     .nav-menu {
         display: none;
     } 
