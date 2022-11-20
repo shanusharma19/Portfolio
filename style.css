@@ -158,6 +158,7 @@ section:nth-child(2n + 1) {
 /*About Section*/
 
 #about {
+    display: block;
     height: auto;
     width: 100%;
     position: relative;
@@ -167,8 +168,8 @@ section:nth-child(2n + 1) {
 #my-image {
     height: 12rem;
     width: 12rem;
-    margin: auto;
-    margin-top: -17vh;
+    margin: 0% 390px;
+    transform: translate(0, -65%);
 }
 
 #my-image img {
@@ -573,7 +574,7 @@ button:focus {
 }
 
 
-@media only screen and (max-width: 572px) {
+@media only screen and (max-width: 1080px) {
     
     .timeline-box {
         width: 100%;
@@ -592,7 +593,7 @@ button:focus {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
 
 
     .timeline-box {
