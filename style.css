@@ -166,10 +166,11 @@ section:nth-child(2n + 1) {
 }
 
 #my-image {
+    position: absolute;
     height: 12rem;
     width: 12rem;
     margin: 0% 390px;
-    transform: translate(0, -65%);
+    transform: translate(0, -100%);
 }
 
 #my-image img {
@@ -187,7 +188,7 @@ section:nth-child(2n + 1) {
     color: grey;
     line-height: 28px;
     font-size: 1.1rem;
-    margin: auto;
+    margin: 6% auto auto;
 }
 
 
@@ -576,6 +577,10 @@ button:focus {
 
 @media only screen and (max-width: 1080px) {
     
+    .no-list-style li{
+        font-size: 2.5rem;  
+    }
+
     .timeline-box {
         width: 100%;
         left: 10% !important;
