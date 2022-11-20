@@ -15,7 +15,8 @@ body::-webkit-scrollbar {
 /* Body Header */
 
 #body-header {
-    height: 65vh;
+    height: 65vw;
+    max-height: 65vh;
     opacity: 0.8;
     background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
     background-size: cover;
@@ -101,7 +102,7 @@ body::-webkit-scrollbar {
 /* Name and Social Icons*/
 
 #name-social-container {
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 #my-name {
@@ -160,7 +161,7 @@ section:nth-child(2n + 1) {
 /*About Section*/
 
 #about {
-    display: block;
+    display: flex;
     height: auto;
     width: 100%;
     position: relative;
@@ -171,8 +172,7 @@ section:nth-child(2n + 1) {
     position: absolute;
     height: 12rem;
     width: 12rem;
-    margin: 0% 390px;
-    transform: translate(0, -100%);
+    transform: translate(0, -65%);
 }
 
 #my-image img {
@@ -576,12 +576,7 @@ button:focus {
     width: 50%;
 }
 
-@media only screen and (min-width: 1080px){
-#my-image{
-    margin: 0% 43%;
-    transform: translate(0, -110%);
-}
-}
+
 @media only screen and (max-width: 1080px) {
     
 
@@ -597,12 +592,7 @@ button:focus {
     .bars {
         display: block;
     }
-    #body-header{
-        height: 30vh;
-    }
-    #name-social-container{
-        margin-top: 9vh;
-    }
+    
     .nav-menu {
         display: none;
     } 
